@@ -20,8 +20,15 @@ is_running = False
 
 channel_id = "-1002782899371"
 scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
+
 service = Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service)
+options = webdriver.ChromeOptions()
+options.add_argument(
+    "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/136.0.0.0 Safari/537.36")
+options.add_argument("--headless")
+
+driver = webdriver.Chrome(service=service, options=options)
 
 sent_images = set()
 available_days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
@@ -97,10 +104,12 @@ async def start_cmd(message: types.Message):
     is_running = True
 
     if not stories_time:
-        await message.answer("Перед запуском бота установите время выкладывания постов с помощью команды /stories_time")
+        await message.answer("Перед запуском бота установите время выкладывания постов с помощью команды /stories_time.\n"
+                             "Если вы установили время после запуска бота, перезапустите его")
 
     elif not stories_days:
-        await message.answer("Перед запуском бота установите дни недели выкладывания постов с помощью команды /stories_days")
+        await message.answer("Перед запуском бота установите дни недели выкладывания постов с помощью команды /stories_days.\n"
+                             "Если вы установили даты после запуска бота, перезапустите его")
 
     else:
         driver.get("https://www.memify.ru")
