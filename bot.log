@@ -88,3 +88,284 @@
 2025-07-19 11:41:01,388 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='11', minute='41'], next run at: 2025-07-20 11:41:00 MSK)" executed successfully
 2025-07-19 11:41:15,859 INFO:Polling stopped
 2025-07-19 11:41:16,965 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:10:32,034 INFO:Start polling
+2025-07-19 13:10:32,168 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:10:46,756 INFO:Update id=197740697 is handled. Duration 774 ms by bot id=7178291898
+2025-07-19 13:10:48,595 INFO:Update id=197740698 is handled. Duration 232 ms by bot id=7178291898
+2025-07-19 13:11:20,997 INFO:Update id=197740699 is handled. Duration 202 ms by bot id=7178291898
+2025-07-19 13:11:23,704 INFO:Update id=197740700 is handled. Duration 168 ms by bot id=7178291898
+2025-07-19 13:11:27,243 INFO:Update id=197740701 is handled. Duration 202 ms by bot id=7178291898
+2025-07-19 13:15:13,780 INFO:Update id=197740702 is handled. Duration 157 ms by bot id=7178291898
+2025-07-19 13:15:30,727 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,729 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,732 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,734 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,736 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,738 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:15:30,826 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,827 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,837 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,838 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,839 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,841 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:15:30,842 INFO:Scheduler started
+2025-07-19 13:15:30,843 INFO:Update id=197740703 is handled. Duration 8178 ms by bot id=7178291898
+2025-07-19 13:16:00,086 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='16'], next run at: 2025-07-20 13:16:00 MSK)" (scheduled at 2025-07-19 13:16:00+03:00)
+2025-07-19 13:16:06,961 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='16'], next run at: 2025-07-20 13:16:00 MSK)" executed successfully
+2025-07-19 13:16:51,900 INFO:Removed job get_content_job_13_11
+2025-07-19 13:16:51,901 INFO:Removed job get_content_job_13_12
+2025-07-19 13:16:51,901 INFO:Removed job get_content_job_13_13
+2025-07-19 13:16:51,902 INFO:Removed job get_content_job_13_14
+2025-07-19 13:16:51,902 INFO:Removed job get_content_job_13_15
+2025-07-19 13:16:51,902 INFO:Removed job get_content_job_13_16
+2025-07-19 13:16:52,083 INFO:Update id=197740704 is handled. Duration 228 ms by bot id=7178291898
+2025-07-19 13:16:55,733 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,736 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,738 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,740 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,742 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,745 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:16:55,746 INFO:Update id=197740705 is handled. Duration 1850 ms by bot id=7178291898
+2025-07-19 13:17:08,716 INFO:Polling stopped
+2025-07-19 13:17:09,153 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:17:47,048 INFO:Start polling
+2025-07-19 13:17:47,167 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:17:59,828 INFO:Update id=197740706 is handled. Duration 826 ms by bot id=7178291898
+2025-07-19 13:18:01,531 INFO:Update id=197740707 is handled. Duration 389 ms by bot id=7178291898
+2025-07-19 13:18:17,758 INFO:Update id=197740708 is handled. Duration 166 ms by bot id=7178291898
+2025-07-19 13:18:23,703 INFO:Update id=197740709 is handled. Duration 202 ms by bot id=7178291898
+2025-07-19 13:18:25,055 INFO:Update id=197740710 is handled. Duration 138 ms by bot id=7178291898
+2025-07-19 13:18:27,380 INFO:Update id=197740711 is handled. Duration 190 ms by bot id=7178291898
+2025-07-19 13:18:34,359 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:18:34,360 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:18:34,361 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:18:34,362 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:18:34,368 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:18:34,369 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:18:34,369 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:18:34,371 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:18:34,371 INFO:Scheduler started
+2025-07-19 13:18:34,372 INFO:Update id=197740712 is handled. Duration 4625 ms by bot id=7178291898
+2025-07-19 13:19:00,008 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='19'], next run at: 2025-07-20 13:19:00 MSK)" (scheduled at 2025-07-19 13:19:00+03:00)
+2025-07-19 13:19:01,868 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='19'], next run at: 2025-07-20 13:19:00 MSK)" executed successfully
+2025-07-19 13:19:07,129 INFO:Removed job get_content_job_13_20
+2025-07-19 13:19:07,130 INFO:Removed job get_content_job_13_21
+2025-07-19 13:19:07,130 INFO:Removed job get_content_job_13_22
+2025-07-19 13:19:07,130 INFO:Removed job get_content_job_13_19
+2025-07-19 13:19:07,132 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:19:07,134 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:19:07,135 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:19:07,136 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:19:07,136 INFO:Update id=197740713 is handled. Duration 987 ms by bot id=7178291898
+2025-07-19 13:20:00,004 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='20'], next run at: 2025-07-20 13:20:00 MSK)" (scheduled at 2025-07-19 13:20:00+03:00)
+2025-07-19 13:20:26,893 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='20'], next run at: 2025-07-20 13:20:00 MSK)" executed successfully
+2025-07-19 13:21:00,003 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='21'], next run at: 2025-07-20 13:21:00 MSK)" (scheduled at 2025-07-19 13:21:00+03:00)
+2025-07-19 13:21:01,687 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='21'], next run at: 2025-07-20 13:21:00 MSK)" executed successfully
+2025-07-19 13:22:00,003 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='22'], next run at: 2025-07-20 13:22:00 MSK)" (scheduled at 2025-07-19 13:22:00+03:00)
+2025-07-19 13:22:05,741 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='22'], next run at: 2025-07-20 13:22:00 MSK)" executed successfully
+2025-07-19 13:23:33,425 INFO:Polling stopped
+2025-07-19 13:23:34,762 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:26:39,244 INFO:Start polling
+2025-07-19 13:26:39,352 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:27:13,462 INFO:Update id=197740714 is handled. Duration 471 ms by bot id=7178291898
+2025-07-19 13:27:15,765 INFO:Update id=197740715 is handled. Duration 175 ms by bot id=7178291898
+2025-07-19 13:27:38,583 INFO:Update id=197740716 is handled. Duration 133 ms by bot id=7178291898
+2025-07-19 13:27:44,831 INFO:Update id=197740717 is handled. Duration 179 ms by bot id=7178291898
+2025-07-19 13:27:46,571 INFO:Update id=197740718 is handled. Duration 264 ms by bot id=7178291898
+2025-07-19 13:27:48,729 INFO:Update id=197740719 is handled. Duration 133 ms by bot id=7178291898
+2025-07-19 13:27:56,155 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:27:56,156 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:27:56,157 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:27:56,159 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:27:56,165 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:27:56,166 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:27:56,167 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:27:56,167 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:27:56,167 INFO:Scheduler started
+2025-07-19 13:27:56,168 INFO:Update id=197740720 is handled. Duration 5184 ms by bot id=7178291898
+2025-07-19 13:28:00,016 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='28'], next run at: 2025-07-20 13:28:00 MSK)" (scheduled at 2025-07-19 13:28:00+03:00)
+2025-07-19 13:28:01,703 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='28'], next run at: 2025-07-20 13:28:00 MSK)" executed successfully
+2025-07-19 13:29:00,005 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='29'], next run at: 2025-07-20 13:29:00 MSK)" (scheduled at 2025-07-19 13:29:00+03:00)
+2025-07-19 13:29:02,782 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='29'], next run at: 2025-07-20 13:29:00 MSK)" executed successfully
+2025-07-19 13:30:00,015 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='30'], next run at: 2025-07-20 13:30:00 MSK)" (scheduled at 2025-07-19 13:30:00+03:00)
+2025-07-19 13:30:02,982 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='30'], next run at: 2025-07-20 13:30:00 MSK)" executed successfully
+2025-07-19 13:31:00,011 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='31'], next run at: 2025-07-20 13:31:00 MSK)" (scheduled at 2025-07-19 13:31:00+03:00)
+2025-07-19 13:31:01,144 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='31'], next run at: 2025-07-20 13:31:00 MSK)" executed successfully
+2025-07-19 13:33:56,160 INFO:Polling stopped
+2025-07-19 13:33:56,621 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:34:48,572 INFO:Start polling
+2025-07-19 13:34:48,710 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-19 13:36:00,736 INFO:Update id=197740721 is handled. Duration 574 ms by bot id=7178291898
+2025-07-19 13:36:46,137 INFO:Update id=197740722 is handled. Duration 203 ms by bot id=7178291898
+2025-07-19 13:37:06,782 INFO:Update id=197740723 is handled. Duration 130 ms by bot id=7178291898
+2025-07-19 13:37:17,434 INFO:Update id=197740724 is handled. Duration 165 ms by bot id=7178291898
+2025-07-19 13:37:23,428 INFO:Update id=197740725 is handled. Duration 220 ms by bot id=7178291898
+2025-07-19 13:37:27,097 INFO:Update id=197740726 is handled. Duration 204 ms by bot id=7178291898
+2025-07-19 13:37:41,133 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:37:41,134 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:37:41,139 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:37:41,140 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:37:41,141 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:37:41,150 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:37:41,151 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:37:41,153 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:37:41,154 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:37:41,155 INFO:Added job "get_content" to job store "default"
+2025-07-19 13:37:41,155 INFO:Scheduler started
+2025-07-19 13:37:41,157 INFO:Update id=197740727 is handled. Duration 4535 ms by bot id=7178291898
+2025-07-19 13:38:00,009 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='38'], next run at: 2025-07-20 13:38:00 MSK)" (scheduled at 2025-07-19 13:38:00+03:00)
+2025-07-19 13:38:02,350 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='38'], next run at: 2025-07-20 13:38:00 MSK)" executed successfully
+2025-07-19 13:39:00,008 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='39'], next run at: 2025-07-20 13:39:00 MSK)" (scheduled at 2025-07-19 13:39:00+03:00)
+2025-07-19 13:39:01,100 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='39'], next run at: 2025-07-20 13:39:00 MSK)" executed successfully
+2025-07-19 13:40:00,016 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='40'], next run at: 2025-07-20 13:40:00 MSK)" (scheduled at 2025-07-19 13:40:00+03:00)
+2025-07-19 13:40:01,289 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='40'], next run at: 2025-07-20 13:40:00 MSK)" executed successfully
+2025-07-19 13:41:00,012 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='41'], next run at: 2025-07-20 13:41:00 MSK)" (scheduled at 2025-07-19 13:41:00+03:00)
+2025-07-19 13:41:01,099 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='41'], next run at: 2025-07-20 13:41:00 MSK)" executed successfully
+2025-07-19 13:41:15,513 INFO:Polling stopped
+2025-07-19 13:41:15,905 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:04:01,001 INFO:Start polling
+2025-07-20 13:04:01,120 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:05:16,544 INFO:Update id=197740728 is handled. Duration 478 ms by bot id=7178291898
+2025-07-20 13:05:17,899 INFO:Update id=197740729 is handled. Duration 189 ms by bot id=7178291898
+2025-07-20 13:05:39,869 INFO:Update id=197740730 is handled. Duration 167 ms by bot id=7178291898
+2025-07-20 13:05:43,101 INFO:Update id=197740731 is handled. Duration 251 ms by bot id=7178291898
+2025-07-20 13:05:46,090 INFO:Update id=197740732 is handled. Duration 206 ms by bot id=7178291898
+2025-07-20 13:05:52,151 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:05:52,152 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:05:52,153 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:05:52,154 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:05:52,155 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:05:52,162 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:05:52,162 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:05:52,164 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:05:52,164 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:05:52,165 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:05:52,165 INFO:Scheduler started
+2025-07-20 13:05:52,166 INFO:Update id=197740733 is handled. Duration 4360 ms by bot id=7178291898
+2025-07-20 13:06:00,012 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='6'], next run at: 2025-07-21 13:06:00 MSK)" (scheduled at 2025-07-20 13:06:00+03:00)
+2025-07-20 13:06:02,575 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='6'], next run at: 2025-07-21 13:06:00 MSK)" executed successfully
+2025-07-20 13:07:00,007 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='7'], next run at: 2025-07-21 13:07:00 MSK)" (scheduled at 2025-07-20 13:07:00+03:00)
+2025-07-20 13:07:02,214 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='7'], next run at: 2025-07-21 13:07:00 MSK)" executed successfully
+2025-07-20 13:08:00,012 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='8'], next run at: 2025-07-21 13:08:00 MSK)" (scheduled at 2025-07-20 13:08:00+03:00)
+2025-07-20 13:08:02,367 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='8'], next run at: 2025-07-21 13:08:00 MSK)" executed successfully
+2025-07-20 13:09:00,004 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='9'], next run at: 2025-07-21 13:09:00 MSK)" (scheduled at 2025-07-20 13:09:00+03:00)
+2025-07-20 13:09:02,870 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='9'], next run at: 2025-07-21 13:09:00 MSK)" executed successfully
+2025-07-20 13:10:00,011 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='10'], next run at: 2025-07-21 13:10:00 MSK)" (scheduled at 2025-07-20 13:10:00+03:00)
+2025-07-20 13:10:02,097 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='10'], next run at: 2025-07-21 13:10:00 MSK)" executed successfully
+2025-07-20 13:12:21,833 INFO:Polling stopped
+2025-07-20 13:12:22,311 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:13:59,890 INFO:Start polling
+2025-07-20 13:14:00,016 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:14:04,590 INFO:Update id=197740734 is handled. Duration 430 ms by bot id=7178291898
+2025-07-20 13:14:05,814 INFO:Update id=197740735 is handled. Duration 136 ms by bot id=7178291898
+2025-07-20 13:14:27,972 INFO:Update id=197740736 is handled. Duration 140 ms by bot id=7178291898
+2025-07-20 13:14:36,910 INFO:Update id=197740737 is handled. Duration 130 ms by bot id=7178291898
+2025-07-20 13:14:38,316 INFO:Update id=197740738 is handled. Duration 130 ms by bot id=7178291898
+2025-07-20 13:14:41,328 INFO:Update id=197740739 is handled. Duration 251 ms by bot id=7178291898
+2025-07-20 13:16:57,291 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:16:57,293 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:16:57,294 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:16:57,294 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:16:57,295 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:16:57,306 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:16:57,307 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:16:57,308 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:16:57,308 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:16:57,309 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:16:57,309 INFO:Scheduler started
+2025-07-20 13:16:57,309 INFO:Update id=197740740 is handled. Duration 5213 ms by bot id=7178291898
+2025-07-20 13:17:00,014 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='17'], next run at: 2025-07-21 13:17:00 MSK)" (scheduled at 2025-07-20 13:17:00+03:00)
+2025-07-20 13:17:01,832 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='17'], next run at: 2025-07-21 13:17:00 MSK)" executed successfully
+2025-07-20 13:18:00,010 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='18'], next run at: 2025-07-21 13:18:00 MSK)" (scheduled at 2025-07-20 13:18:00+03:00)
+2025-07-20 13:18:01,437 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='18'], next run at: 2025-07-21 13:18:00 MSK)" executed successfully
+2025-07-20 13:19:00,017 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='19'], next run at: 2025-07-21 13:19:00 MSK)" (scheduled at 2025-07-20 13:19:00+03:00)
+2025-07-20 13:19:06,014 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='19'], next run at: 2025-07-21 13:19:00 MSK)" executed successfully
+2025-07-20 13:19:49,074 INFO:Update id=197740741 is handled. Duration 168 ms by bot id=7178291898
+2025-07-20 13:19:58,546 INFO:Update id=197740742 is handled. Duration 287 ms by bot id=7178291898
+2025-07-20 13:22:43,354 INFO:Polling stopped
+2025-07-20 13:22:43,792 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:35:08,097 INFO:Start polling
+2025-07-20 13:35:08,216 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:35:21,677 INFO:Update id=197740743 is handled. Duration 1269 ms by bot id=7178291898
+2025-07-20 13:35:30,392 INFO:Update id=197740744 is handled. Duration 465 ms by bot id=7178291898
+2025-07-20 13:36:08,814 INFO:Polling stopped
+2025-07-20 13:36:09,239 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:36:43,843 INFO:Start polling
+2025-07-20 13:36:43,955 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:36:51,078 INFO:Update id=197740745 is handled. Duration 533 ms by bot id=7178291898
+2025-07-20 13:36:54,609 INFO:Update id=197740746 is handled. Duration 141 ms by bot id=7178291898
+2025-07-20 13:37:14,587 INFO:Update id=197740747 is handled. Duration 120 ms by bot id=7178291898
+2025-07-20 13:37:19,604 INFO:Update id=197740748 is handled. Duration 253 ms by bot id=7178291898
+2025-07-20 13:37:25,497 INFO:Update id=197740749 is handled. Duration 199 ms by bot id=7178291898
+2025-07-20 13:37:29,490 INFO:Update id=197740750 is handled. Duration 202 ms by bot id=7178291898
+2025-07-20 13:37:43,750 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:37:43,751 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:37:43,753 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:37:43,754 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:37:43,755 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:37:43,763 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:37:43,764 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:37:43,764 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:37:43,765 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:37:43,766 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:37:43,766 INFO:Scheduler started
+2025-07-20 13:37:43,767 INFO:Update id=197740751 is handled. Duration 10718 ms by bot id=7178291898
+2025-07-20 13:38:00,007 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='38'], next run at: 2025-07-21 13:38:00 MSK)" (scheduled at 2025-07-20 13:38:00+03:00)
+2025-07-20 13:38:02,176 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='38'], next run at: 2025-07-21 13:38:00 MSK)" executed successfully
+2025-07-20 13:39:00,014 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='39'], next run at: 2025-07-21 13:39:00 MSK)" (scheduled at 2025-07-20 13:39:00+03:00)
+2025-07-20 13:39:07,789 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='39'], next run at: 2025-07-21 13:39:00 MSK)" executed successfully
+2025-07-20 13:39:25,184 INFO:Polling stopped
+2025-07-20 13:39:25,660 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:40:05,093 INFO:Start polling
+2025-07-20 13:40:05,555 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:40:17,135 INFO:Update id=197740752 is handled. Duration 837 ms by bot id=7178291898
+2025-07-20 13:40:23,359 INFO:Update id=197740753 is handled. Duration 396 ms by bot id=7178291898
+2025-07-20 13:40:54,235 INFO:Polling stopped
+2025-07-20 13:40:54,808 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:41:30,746 INFO:Start polling
+2025-07-20 13:41:30,888 INFO:Run polling for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
+2025-07-20 13:41:36,382 INFO:Update id=197740754 is handled. Duration 500 ms by bot id=7178291898
+2025-07-20 13:41:43,481 INFO:Update id=197740755 is handled. Duration 156 ms by bot id=7178291898
+2025-07-20 13:42:03,408 INFO:Update id=197740756 is handled. Duration 236 ms by bot id=7178291898
+2025-07-20 13:42:09,345 INFO:Update id=197740757 is handled. Duration 301 ms by bot id=7178291898
+2025-07-20 13:42:10,983 INFO:Update id=197740758 is handled. Duration 130 ms by bot id=7178291898
+2025-07-20 13:42:14,675 INFO:Update id=197740759 is handled. Duration 205 ms by bot id=7178291898
+2025-07-20 13:42:24,684 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:42:24,686 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:42:24,686 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:42:24,687 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:42:24,688 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-20 13:42:24,695 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:42:24,695 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:42:24,696 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:42:24,697 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:42:24,698 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:42:24,698 INFO:Scheduler started
+2025-07-20 13:42:24,699 INFO:Update id=197740760 is handled. Duration 7596 ms by bot id=7178291898
+2025-07-20 13:42:34,800 INFO:Update id=197740761 is handled. Duration 138 ms by bot id=7178291898
+2025-07-20 13:43:00,007 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='43'], next run at: 2025-07-21 13:43:00 MSK)" (scheduled at 2025-07-20 13:43:00+03:00)
+2025-07-20 13:43:01,686 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='43'], next run at: 2025-07-21 13:43:00 MSK)" executed successfully
+2025-07-20 13:43:08,223 INFO:Update id=197740762 is handled. Duration 134 ms by bot id=7178291898
+2025-07-20 13:43:37,829 INFO:Removed job get_content_job_13_44
+2025-07-20 13:43:37,830 INFO:Removed job get_content_job_13_45
+2025-07-20 13:43:37,830 INFO:Removed job get_content_job_13_46
+2025-07-20 13:43:37,830 INFO:Removed job get_content_job_13_42
+2025-07-20 13:43:37,830 INFO:Removed job get_content_job_13_43
+2025-07-20 13:43:38,026 INFO:Update id=197740763 is handled. Duration 197 ms by bot id=7178291898
+2025-07-20 13:43:43,533 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:43:43,534 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:43:43,535 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:43:43,537 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:43:43,538 INFO:Added job "get_content" to job store "default"
+2025-07-20 13:43:43,538 INFO:Update id=197740764 is handled. Duration 1697 ms by bot id=7178291898
+2025-07-20 13:44:00,010 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='44'], next run at: 2025-07-21 13:44:00 MSK)" (scheduled at 2025-07-20 13:44:00+03:00)
+2025-07-20 13:44:01,503 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='44'], next run at: 2025-07-21 13:44:00 MSK)" executed successfully
+2025-07-20 13:45:00,007 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='45'], next run at: 2025-07-21 13:45:00 MSK)" (scheduled at 2025-07-20 13:45:00+03:00)
+2025-07-20 13:45:04,323 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='45'], next run at: 2025-07-21 13:45:00 MSK)" executed successfully
+2025-07-20 13:45:38,394 INFO:Update id=197740765 is handled. Duration 148 ms by bot id=7178291898
+2025-07-20 13:45:43,810 INFO:Update id=197740766 is handled. Duration 269 ms by bot id=7178291898
+2025-07-20 13:45:47,356 INFO:Update id=197740767 is handled. Duration 138 ms by bot id=7178291898
+2025-07-20 13:46:00,005 INFO:Running job "get_content (trigger: cron[day_of_week='*', hour='13', minute='46'], next run at: 2025-07-21 13:46:00 MSK)" (scheduled at 2025-07-20 13:46:00+03:00)
+2025-07-20 13:46:01,692 INFO:Job "get_content (trigger: cron[day_of_week='*', hour='13', minute='46'], next run at: 2025-07-21 13:46:00 MSK)" executed successfully
+2025-07-20 13:46:45,239 INFO:Polling stopped
+2025-07-20 13:46:45,874 INFO:Polling stopped for bot @stoooooooooriesbot id=7178291898 - 'StoriesBot'
