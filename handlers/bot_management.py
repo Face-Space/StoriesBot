@@ -25,6 +25,11 @@ available_days = ["понедельник", "вторник", "среда", "ч�
 
 service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
+options.add_argument("--no-sandbox")
+# options.add_argument("--disable-dev-shm-usage")
+# отключает использование shared memory для хранения данных, которые Chrome обычно размещает в общей памяти
+options.add_argument("--disable-gpu")
+#  отключает использование графического процессора (GPU) браузером
 options.add_argument(
     "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/136.0.0.0 Safari/537.36")
@@ -89,43 +94,43 @@ async def schedule_jobs():
         day_of_week = ",".join(day_map[day] for day in bot_state.stories_days)
 
     # Добавляем задачи на каждый указанный час и минуту
-    try:
-        for t in bot_state.stories_time:
-            hour, minute = t.split(":")
-            job_id = f"get_content_job_{hour}_{minute}"
-            scheduler.add_job(
-                get_content,
-                trigger=CronTrigger(hour=hour, minute=minute, day_of_week=day_of_week),
-                id=job_id,
-                replace_existing=True
-            )
-            # replace_existing=True если задача с таким id уже есть, она перезаписывается
 
-        if not scheduler.running:
-            scheduler.start()
-    except Exception as e:
-        await bot.send_message(chat_id=admins_list[0], text=f"В боте произошла ошибка: {e}. Проверьте логи")
+    for t in bot_state.stories_time:
+        hour, minute = t.split(":")
+        job_id = f"get_content_job_{hour}_{minute}"
+        scheduler.add_job(
+            get_content,
+            trigger=CronTrigger(hour=hour, minute=minute, day_of_week=day_of_week),
+            id=job_id,
+            replace_existing=True
+        )
+        # replace_existing=True если задача с таким id уже есть, она перезаписывается
+
+    if not scheduler.running:
+        scheduler.start()
 
 
 @management_router.message(CommandStart())
 async def start_cmd(message: types.Message):
-    if bot_state.is_running:
-        await message.answer("Бот уже запущен.")
-
-    elif not bot_state.stories_time:
+    if not bot_state.stories_time:
         await message.answer("Перед запуском бота установите время выкладывания постов с помощью команды /stories_time.\n"
-                             "Если вы установили время после запуска бота, перезапустите его")
+                             "Если вы установили время после запуска бота, перезапустите его командой /start.")
 
     elif not bot_state.stories_days:
         await message.answer("Перед запуском бота установите дни недели выкладывания постов с помощью команды /stories_days.\n"
-                             "Если вы установили даты после запуска бота, перезапустите его")
+                             "Если вы установили даты после запуска бота, перезапустите его командой /start.")
 
     else:
-        driver.get("https://www.memify.ru")
-        await message.answer("Бот запущен, пожалуйста подождите...")
-        bot_state.is_running = True
-        # Запускаем планировщик с текущими stories_days и stories_time, если они заданы
-        await schedule_jobs()
+        try:
+            bot_state.sent_images.clear()
+            driver.get("https://www.memify.ru")
+            await message.answer("Бот запущен, пожалуйста подождите...")
+            bot_state.is_running = True
+            # Запускаем планировщик с текущими stories_days и stories_time, если они заданы
+            await schedule_jobs()
+
+        except Exception as e:
+            await bot.send_message(chat_id=admins_list[0], text=f"В боте произошла ошибка: {e}. Проверьте логи")
 
 
 @management_router.message(Command("stop"))
@@ -148,10 +153,20 @@ async def status_cmd(message: types.Message):
     await message.answer(f"Время выкладывания постов: {', '.join(bot_state.stories_time)}")
 
 
+# здесь команды идут один за другим, чтобы из состояния stories_days можно было перейти в состояние stories_time и наоборот
 @management_router.message(Command("stories_days"))
 async def set_days(message: types.Message, state: FSMContext):
-    await message.answer("Напишите через запятую c пробелом по каким дням недели размещать сторис, если все то *")
+    await message.answer("Напишите через запятую c пробелом по каким дням недели размещать сторис, если все то *. \n"
+                         "Затем перезапустите бота командой /start.")
     await state.set_state(StoriesDays.stories_days)
+
+
+@management_router.message(Command("stories_time"))
+async def set_time(message: types.Message, state: FSMContext):
+    await message.answer("Укажите время размещения сторис через запятую, например: 07:01, 08:05, 09:05. \n"
+                         "Затем перезапустите бота командой /start.")
+    await state.set_state(StoriesTime.stories_time)
+
 
 
 @management_router.message(StoriesDays.stories_days)
@@ -161,23 +176,19 @@ async def choose_days(message: types.Message, state: FSMContext):
     days_list = [d.strip() for d in days.split(",")]
     if all(day in available_days for day in days_list):
         bot_state.stories_days = days_list
-        await message.answer(f"Дни недели выбраны: {', '.join(bot_state.stories_days)}")
+        await message.answer(f"Дни недели выбраны: {', '.join(bot_state.stories_days)}. \n"
+                             f"Перезапустите бота командой /start.")
         await state.clear()
 
     elif days == "*":
         bot_state.stories_days = available_days
-        await message.answer("Выбраны все дни недели.")
+        await message.answer("Выбраны все дни недели. \n"
+                             "Перезапустите бота командой /start.")
         await state.clear()
 
     else:
         await message.answer("Введите корректные дни недели через запятую с пробелом, например: "
                              "понедельник, вторник, среда, либо * чтобы выбрать все дни.")
-
-
-@management_router.message(Command("stories_time"))
-async def set_time(message: types.Message, state: FSMContext):
-    await message.answer("Укажите время размещения сторис через запятую, например: 07:01, 08:05, 09:05")
-    await state.set_state(StoriesTime.stories_time)
 
 
 @management_router.message(StoriesTime.stories_time)
@@ -191,7 +202,8 @@ async def choose_time(message: types.Message, state: FSMContext):
     # проверка, соответствует ли строка t заданному регулярному выражению time_pattern
     if all(time_pattern.match(t) for t in times_list):
         bot_state.stories_time = times_list
-        await message.answer("Время для постов установлено.")
+        await message.answer("Время для постов установлено. \n"
+                             "Перезапустите бота командой /start.")
         await state.clear()
     else:
         await message.answer("Введите время в нужном формате, например: 23:59")
